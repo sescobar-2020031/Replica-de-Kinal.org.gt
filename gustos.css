@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family:'PT Serif', 'Open Sans' , 'Times New Roman';
+}
+#cuadradoTopBar{
+    background-color:#313131;
+    opacity: 90%;
+    width:100%;
+    height: auto;
+}
+.TopBar{
+    color: #ff5954;
+    float: left;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 30px;
+}
+.menuTopBar{
+    position: fixed;
+    top:0;
+}
+#LogoGustos{
+    width: 100px;
+    height: 85px;
+}
+#BiografiaLink{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+#KinalLink{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.Titulo{
+    background: #32a5a6;
+    padding-top: 140px;
+    display: flex;
+    margin: auto;
+    height: auto;
+}
+.textoTitulo{
+    color: #fff;
+    font-size: 40px;
+    width: 95%;
+    display:flex;
+    align-items: right;
+    justify-content: space-around;
+    margin: auto;
+}
+#imagenPrincipal{
+    width: 100%;
+    justify-content: space-around;
+    padding: 70px;
+    border-radius: 30%;
+}
+.contenedorPrincipal{
+    padding-top: 15px;
+    display:flex;
+    background: #313131;
+    width: 100%;
+}
+.contenedorDeColumnas{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.fila{
+    width: 33.333%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin:auto;
+}
+.fila img{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #32a5a6;
+}
+p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Open Sans' , 'Times New Roman';
+}
